@@ -5,7 +5,7 @@ const bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "
 const desk = document.querySelector(".deskripsi h3");
 const kotak = document.querySelectorAll(".kotak h3");
 
-const date = new Date(2021, 3, 13, 00, 00, 00);
+const date = new Date(2021, 3, 12, 00, 00, 00);
 
 const tanggal = date.getDate();
 const bln = bulan[date.getMonth()];
